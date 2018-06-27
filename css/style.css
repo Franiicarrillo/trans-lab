@@ -1,1 +1,23 @@
-/* YeyeYeee código aquí */
+body{
+  background-color: #404143;
+}
+
+#imagen1{
+  margin: 15em;
+}
+label{
+  color: white;
+
+}
+form{
+  background-color: white;
+}
+#mail{
+  border: inset;
+  width: 100%;
+  height: 5em;
+  text-align: center;
+}
+.btn{
+  background-color: #f3ab04 !important;
+  width: 100% ;
