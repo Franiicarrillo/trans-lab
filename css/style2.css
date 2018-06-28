@@ -105,3 +105,55 @@ h1{
   height: 700px;
   transform: translate(25em,3em);
 }
+
+#cuadradoEmail{
+
+  width: 15em;
+  height:2em;
+  font-size: 80px;
+  transform: translate(1.5em,2em);
+  border-radius: 30px;
+  text-align: center;
+}
+
+h5{
+  font-size: 40px;
+  color:grey;
+  transform: translate(3.5em,5em);
+}
+hr{
+border: solid grey 2px;
+  color: black;
+  width: 75em;
+  transform: translate(6.5em,9em);
+}
+.cuadrado2{
+    background-color: #f3ab04;
+    height: 50em;
+    width: 90em;
+
+}
+h2{
+  color: white;
+  font-size: 80px;
+  text-align: center;
+transform: translate(0,5em);
+}
+
+.list-group{
+  font-size: 70px;
+  width:18em;
+  margin: 1em;
+
+
+}
+.d-flex {
+  height: 55px;
+}
+.mb-1{
+  transform:translate(1em,1em);
+}
+.list-group-item.active{
+  background-color: white;
+  color:grey;
+}
