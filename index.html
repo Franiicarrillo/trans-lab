@@ -4,15 +4,19 @@
     <meta charset="utf-8">
     <title></title>
      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
 <link rel="stylesheet" href="/home/laboratoria/Desktop/proyecto/trans-lab/css/style.css">
+<link href="https://fonts.googleapis.com/css?family=Play|Roboto+Condensed" rel="stylesheet">
   </head>
   <body>
     <div class="container">
 
       <div class="row">
         <div class="col s12">
-      <img id="imagen1"src="/home/laboratoria/Desktop/proyecto/trans-lab/docs/imagen.png" alt="">
-        <form action="index3.html" method="post" target="_self">
+
+<img id="imagen1"src="/home/laboratoria/Desktop/proyecto/trans-lab/docs/imagen.png" alt="">
+<h1>TRANS-LAB</h1>
+        <form action="/home/laboratoria/Desktop/proyecto/trans-lab/index2.html" method="post" target="_self">
                 <div class="form-group">
                   <label for="mail">
               <input type="email" id="mail" name="mail" placeholder="Correo Electronico"  >
@@ -20,14 +24,23 @@
                  </div>
                 <div class="form-group">
                   <label for="exampleInputPassword1">Password</label>
-                  <input type="password" minlength="4" maxlength="8"class="form-control"  required pattern="[0-9]{8}"id="exampleInputPassword1" placeholder="Password">
+                  <input type="password"  maxlength="8"class="form-control"  required pattern="[0-9]{1,8}"id="exampleInputPassword1" placeholder="Password">
                 </div>
                 <div class="form-group form-check">
                   <input type="checkbox" class="form-check-input" id="exampleCheck1">
                   <label class="form-check-label" for="exampleCheck1">Check me out</label>
                 </div>
                 <button type="submit" class="btn">Iniciar Sesion</button>
+                  <div id="icono1">
+                    <i class="far fa-user"></i>
+                  </div>
+<div id="icono2">
+  <i class="fas fa-lock"></i>
+</div>
               </form>
+              <h3 class="forgot">¿Olvidaste tu contraseña?</h3>
+          <h3 class="register">¿NO TIENES CUENTA? <span>REGISTRATE</span></h3>
+              </div>
               </div>
               </div>
             </div>

@@ -1,23 +1,80 @@
+*{
+  font-family: 'Play', sans-serif;
+}
 body{
   background-color: #404143;
 }
 
 #imagen1{
   margin: 15em;
+  margin-bottom: 3em;
 }
 label{
   color: white;
 
 }
-form{
+.form-group{
   background-color: white;
+  border: solid white 1em;
+
 }
 #mail{
   border: inset;
   width: 100%;
-  height: 5em;
+  height: 3em;
   text-align: center;
+  margin: 0;
+  font-size: 40px;
 }
 .btn{
   background-color: #f3ab04 !important;
   width: 100% ;
+  height: 3em;
+  font-size: 45px;
+  color: grey;
+
+}
+#exampleInputPassword1{
+  border: inset white;
+  height: 3em;
+  margin: 0;
+  text-align: center;
+  font-size: 40px;
+}
+.far{
+  font-size: 80px;
+  transform: translate(1em,-6em);
+  font-weight: lighter;
+  opacity: 0.2;
+}
+.fas{
+  font-size: 80px;
+  transform: translate(1em,-4.8em);
+  opacity: 0.2;
+}
+
+h1{
+  font-size: 90px;
+  color: #f3ab04;
+  font-weight:900;
+  margin-left: 2em;
+
+}
+
+h3{
+  transform: translate(0,-4em);
+  color: white;
+}
+form{
+  margin-top: 10em;
+}
+.register {
+  	color: white;
+    text-align: center;
+    transform: translate(0,-1.5em);
+
+  }
+
+  .register span {
+  	color: #f3ab04;
+  }
