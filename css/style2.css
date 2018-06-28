@@ -157,3 +157,51 @@ transform: translate(0,5em);
   background-color: white;
   color:grey;
 }
+
+#numeroTarjeta {
+  width: 15em;
+  height: 1em;
+  font-size: 80px;
+  transform: translate(1.5em,3em);
+  border-radius: 30px;
+  text-align: center;
+}
+
+#btnAgregarTarjeta{
+  background-color: #f3ab04;
+  width: 15em;
+  height: 1em;
+  font-size: 80px;
+  transform: translate(1.5em,4em);
+  border-radius: 30px;
+  text-align: center;
+}
+
+#tarjetasGuardadas{
+  width: 15em;
+  height: 1em;
+  font-size: 80px;
+  transform: translate(1.5em,4em);
+  border-radius: 30px;
+  text-align: center;
+}
+
+#tarjetas{
+  width: 15em;
+  height: 1em;
+  font-size: 80px;
+  transform: translate(1.5em,4em);
+  border-radius: 30px;
+  text-align: center;
+  background-color: white
+}
+
+.caja{
+  width: 15em;
+    height: 1em;
+    font-size: 80px;
+    transform: translate(1.5em,4em);
+    border-radius: 30px;
+    text-align: center;
+    background-color: white;
+}

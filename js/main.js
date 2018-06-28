@@ -1,9 +1,9 @@
-/* Holiii acá va tu código también */
-var form  = document.getElementsByTagName('form')[0];
-var email = document.getElementById('mail');
-var error = document.querySelector('.error');
 
-email.addEventListener("keyup", function (event) {
+let form  = document.getElementsByTagName('form')[0];
+let email = document.getElementById('mail');
+let  error = document.querySelector('.error');
+
+email.addEventListener("keyup", function () {
   // Cada vez que el usuario escriba algo, revisaremos si
   // el campo de email es válido.
   if (email.validity.valid) {

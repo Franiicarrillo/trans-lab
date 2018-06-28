@@ -1,36 +1,57 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title></title>
-    <link rel="stylesheet" href="/home/laboratoria/Desktop/proyecto/trans-lab/css/style2.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
-  </head>
-  <body>
-<header>
 
-  <input type="checkbox" id="btn-menu">
-  <label for="btn-menu"><i class="fas fa-align-justify" style="color:white;"></i></label >
+<head>
+  <meta charset="utf-8">
+  <title></title>
+
+  <link rel="stylesheet" href="css/style2.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt"
+    crossorigin="anonymous">
+   
+</head>
+
+<body>
+  <header>
+
+    <input type="checkbox" id="btn-menu">
+    <label for="btn-menu">
+      <i class="fas fa-align-justify" style="color:white;"></i>
+    </label>
     <nav class="menu">
-<li><a href="index5.html">Ver saldo</a><i class="fas fa-dollar-sign"></i></li>
-<li><a href="index6.html">Calcular tarifa</a><i class="fas fa-th"></i></li>
-<li><a href="index3.html">Perfil</a><i class="far fa-user"></i></li>
-<li><a href="index4.html">Preguntas frecuentes</a><i class="fas fa-clipboard-list"></i></li>
-<li><a href="index2.html">home</a><i class="fas fa-long-arrow-alt-right"></i></li>
-        </nav>
-        <h1>TRANS-LAB</h1>
-</header>
-  </body>
-  <div class="cuadrado1">
- <img id="imagen"src="/home/laboratoria/Desktop/proyecto/trans-lab/docs/NO-FOTO.png" alt="">
+      <li>
+        <a href="index5.html">Ver saldo</a>
+        <i class="fas fa-dollar-sign"></i>
+      </li>
+      <li>
+        <a href="index6.html">Calcular tarifa</a>
+        <i class="fas fa-th"></i>
+      </li>
+      <li>
+        <a href="index3.html">Perfil</a>
+        <i class="far fa-user"></i>
+      </li>
+      <li>
+        <a href="index4.html">Preguntas frecuentes</a>
+        <i class="fas fa-clipboard-list"></i>
+      </li>
+      <li>
+        <a href="index2.html">home</a>
+        <i class="fas fa-long-arrow-alt-right"></i>
+      </li>
+    </nav>
+    <h1>TRANS-LAB</h1>
+  </header>
+
+<div class="cuadrado1">
+  <img id="imagen" src="docs/NO-FOTO.png" alt="">
 
 </div>
- <input id="cuadradoEmail"type="text" name="inputname" value="email" readonly>
- <h5>Numero tarjeta</h5>
-<hr>
-    <script type="text/javascript" src="/home/laboratoria/Desktop/proyecto/trans-lab/js/app.js">
+<input id="cuadradoEmail" type="text" name="inputname" placeholder="email" >
+<input type="tel" id="numeroTarjeta" pattern="[0-9]*" minlength="3" maxlength="8" placeholder="Numero tarjeta" required>
+<input type="button" value="Agregar Tarjeta" id='btnAgregarTarjeta'>
 
-    </script>
+<script src="js/app3.js"></script>
+</body>
 
-    </body>
 </html>

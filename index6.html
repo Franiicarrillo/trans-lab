@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title></title>
-    <link rel="stylesheet" href="/home/laboratoria/Desktop/proyecto/trans-lab/css/style2.css">
+    <link rel="stylesheet" href="css/style2.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
   </head>
   <body>
@@ -22,9 +22,26 @@
 </header>
   </body>
 <div class="opciones">
-  <li><a href="index5.html">VER SALDO</a></li>
+  <!-- <li><a href="index5.html">VER SALDO</a></li>
   <li><a href="index6.html">CALCULAR TARIFA</a></li>
   <li><a href="index3.html">PERFIL</a></li>
-  <li><a href="index4.html">PREGUNTAS FRECUENTES</a></li>
+  <li><a href="index4.html">PREGUNTAS FRECUENTES</a></li> -->
+  <form>
+    <input type="tel" id="numeroTarjeta" pattern="[0-9]*" minlength="3" maxlength="8" placeholder="Numero tarjeta" required>
+
+    <div id="tarjetas"></div>
+     </form> 
+    
+    <select id="selectHorarios">
+            <option value="" disabled selected>Seleccione un horario...</option>
+            <option value="0.630">Tarifa Baja[6:00-6:29][20:45-23:00]hrs</option>
+            <option value="0.680">Tarifa Valle[06:30-06:59][09:00-17:59][20:00-20:44]hrs</option>
+            <option value="0.760">Tarifa Punta [7:00-8:59][18:00-19:59]hrs</option>
+            
+    </select>
+    <input type="button" value="Consultar" id='btnEnviarConsulta'>
+    <div class ='caja'id="costoPasaje" placeholder="Costo Pasaje"></div>
+    <div class= 'caja'type="tel" id="saldoFinal"placeholder="Saldo Final"></div>
+    <script src="js/app.js"></script> 
 </div>
 </html>
